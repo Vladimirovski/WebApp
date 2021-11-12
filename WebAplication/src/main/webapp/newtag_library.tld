@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<taglib>
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>2.1</jsp-version>
+    <short-name>newtag_library</short-name>
+    <uri>myUniqueUri</uri>
+
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>2.1</jsp-version>
+    <short-name>newtag_library</short-name>
+    <uri>myUniqueUri</uri>
+
+    <tag>
+        <name>formattag</name>
+        <tag-class>tags.</tag-class>
+        <body-content>scriptless</body-content>
+
+        <attribute>
+            <name>colour</name>
+            <required>true</required>
+        </attribute>
+
+        <attribute>
+            <name>font_size</name>
+            <required>true</required>
+        </attribute>
+
+        <attribute>
+            <name>is_uppercase</name>
+            <required>false</required>
+        </attribute>
+    </tag>
+
+</taglib>
